@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Nunito:ital@0;1&display=swap');
+
+body{
+    background-color: #F1F1F1;
+    font-family: 'Inter', sans-serif;
+
+}
+*, ::after, ::before {
+    box-sizing: content-box;
+}
+header{
+    background: linear-gradient(77.17deg, #A81D22 -0.41%, #E8222B 98.95%);
+    border-radius: 20px 20px 0 0;
+    margin: auto;
+    width: 600px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    background-color: white;
+    max-width: 480px;
+    margin: auto;
+    padding: 60px;
+}
+h2{
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+
+}
+input{
+    width: 100%;
+    padding: 16px;
+    margin: 10px 0 30px 0;
+}
+button{
+    background: linear-gradient(77.17deg, #A81D22 -0.41%, #E8222B 98.95%);
+    border-radius: 8px;
+    padding: 20px;
+    border-style: none;
+    width: 100%;
+}
+button:hover{
+    background: linear-gradient(77.17deg, #671315 -0.41%, #b01a22 98.95%);
+}
+button h2{
+    color: white;
+}
+.form-check-input:checked {
+    background-color: #E8222B ;
+    border-color: white;
+    padding: 0;
+}
+
+.form-check-input{
+    padding: 0;
+
+}
+
+.form-check .form-check-input {
+    float: none;
+    margin-left: -1.5em;
+}
+
+#avaliation{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0 0px 0;
+
+}
+#resultado{
+    margin-top: 30px;
+}
